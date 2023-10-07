@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="calcStyle.css">    
+    </head>
+     <body>
+        <div class="calcBorder"> <!--All html elements inside this div-->
+            <form id="input">
+                <input type="text" id="curr-operation">
+            </form>
+            <div id="ButtonRowA">
+                <button id="calcButton" data-number> 7 </button>
+                <button id="calcButton" data-number> 8 </button>
+                <button id="calcButton" data-number> 9 </button>
+                <button id="calcButton" data-operation> + </button>
+            </div>
+            <div id="ButtonRowB">
+                <button id="calcButton" data-number> 4 </button>
+                <button id="calcButton" data-number> 5 </button>
+                <button id="calcButton" data-number> 6 </button>
+                <button id="calcButton" data-operation> - </button>
+            </div>
+            <div id="ButtonRowC">
+                <button id="calcButton" data-number> 1 </button>
+                <button id="calcButton" data-number> 2 </button>
+                <button id="calcButton" data-number> 3 </button>
+                <button id="calcButton" data-operation> * </button>
+            </div>
+            <div id="ButtonRowD">
+                <button id="calcButton" data-delete> C </button>
+                <button id="calcButton" data-number> 0 </button>
+                <button id="calcButton" data-equals> = </button>
+                <button id="calcButton" data-operation> / </button>
+            </div>
+            
+        </div> 
+        <script src = "calc.js"></script> 
+    </body>   
+</html>

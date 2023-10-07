@@ -1,0 +1,58 @@
+.calcBorder 
+{
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    background-color: lightgoldenrodyellow;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calcBorder form
+{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.calcBorder button 
+{
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.calcBorder button:hover 
+{
+    background-color: yellow;
+}
+
+#ButtonRowA,#ButtonRowB,#ButtonRowC,#ButtonRowD 
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#ButtonC,#Button0,#ButtonEquals,#ButtonDivide 
+{
+    background-color: darkgray;
+}
+
+#ButtonC:hover, #Button0:hover, #ButtonEquals:hover, #ButtonDivide:hover 
+{
+    background-color: yellow;
+}
+
+#display 
+{
+    width: 150px;
+    height: 50px;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 20px;
+}
